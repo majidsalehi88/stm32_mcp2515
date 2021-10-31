@@ -2,11 +2,11 @@
 SPI MCP2515 BY STM32F103 
 INITIAL MCP2515:
 
- CANSPI_Initialize();
-  HAL_Delay(2000);
-  /* USER CODE END 2 */
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
+CANSPI_Initialize();
+HAL_Delay(2000);
+/* USER CODE END 2 */
+/* Infinite loop */
+/* USER CODE BEGIN WHILE */
   while (1)
   {
 can_reciever();
